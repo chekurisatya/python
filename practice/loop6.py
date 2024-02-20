@@ -1,0 +1,6 @@
+number = 756353523634345121241241864475869605253538956623346325437583435136
+count = 0
+while number != 0:
+	count +=1 
+	number = int(number/10)
+print(count)
