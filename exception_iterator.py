@@ -1,4 +1,4 @@
-'''
+
 #my_list = [10, 20, 30, 0, "invalid", 50]
 my_words = ['Hello','Python','Monty',56,59.0,'Data','Camp','Ford',78,0.78]
 my_iterator = iter(my_words)
@@ -31,7 +31,7 @@ while True:
     except Exception as e:
         # Handle any other unexpected exceptions
         print(f"Unexpected error: {e}")
-'''
+
 
 my_dict = {'a': 1, 'b': 2, 'c': 3}
 key_iterator = iter(my_dict)  # Iterator for keys

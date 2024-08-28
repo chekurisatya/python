@@ -28,8 +28,7 @@ gen = number_generator(numbers)
 print(next(gen))
 print(next(gen))
 print(next(gen))
-#print(next(gen))
-#print(next(gen))
+
 '''
 for value in gen:
     print(f"Yielded value: {value}")
