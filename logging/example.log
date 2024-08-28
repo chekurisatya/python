@@ -1,0 +1,4 @@
+2024-08-27 07:45:00,180:DEBUG:This message should go to the log file
+2024-08-27 07:45:00,180:INFO:So should this
+2024-08-27 07:45:00,180:WARNING:And this, too
+2024-08-27 07:45:00,180:ERROR:And non-ASCII stuff, too, like Øresund and Malmö
