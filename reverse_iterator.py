@@ -17,5 +17,10 @@ class reverse_iter:
 
 it = reverse_iter([1,2,3,4,5,6,7])
 
-for item in it:
-	print(item)
+print(next(it))
+print(next(it))
+print(next(it))
+print(next(it))
+print(next(it))
+print(next(it))
+print(next(it))
