@@ -1,0 +1,64 @@
+Basic Class Exercises
+===================================
+1. Define a class: Create a class named Car with attributes make, model, and year.
+2. Initialize objects: Write a constructor for the Car class to initialize make, model, and year.
+3. Create objects: Instantiate two objects of the Car class with different values.
+4. Methods: Add a method start_engine to the Car class that prints "Engine started."
+5. Modify attributes: Create a method set_year in Car to update the year attribute.
+6. Access attributes: Write a method get_info in Car that returns a string with car details.
+7. Inheritance: Create a class ElectricCar that inherits from Car and adds a battery_size attribute.
+8. Overriding methods: Override the start_engine method in ElectricCar to print "Silent start."
+9. Class variables: Add a class variable wheels to Car with a value of 4, and access it through objects.
+10. Instance variables: Differentiate between class variables and instance variables in the Car class.
+
+Intermediate Class Exercises
+===================================
+11. Private attributes: Modify the Car class to make year a private attribute. Add getter and setter methods.
+12. Static methods: Add a static method is_motor_vehicle to the Car class that returns True.
+13. Class methods: Write a class method from_string in Car that takes a string like "Tesla,Model S,2023" and returns an instance of Car.
+14. Property decorator: Use the @property decorator to create a read-only property for model in the Car class.
+15. Method chaining: Modify the set_year method to return self so that method chaining is possible.
+16. Multiple inheritance: Create a class Boat and then define a class AmphibiousVehicle that inherits from both Car and Boat.
+17. Polymorphism: Write a function that takes a Car or ElectricCar object and calls the start_engine method, demonstrating polymorphism.
+18. Duck typing: Create a class Bike with a start_engine method and demonstrate duck typing by passing a Bike object to the same function from the previous exercise.
+19. Operator overloading: Overload the + operator in the Car class to add the year attributes of two cars.
+20. Magic methods: Implement the __str__ and __repr__ magic methods in the Car class.
+
+Advanced Class Exercises
+==================================
+21. Context managers: Write a class FileHandler that implements the context manager protocol for file handling.
+22. Abstract base classes: Create an abstract base class Shape with an abstract method area and derive classes Circle and Rectangle from it.
+23. Mixins: Write a mixin class DrivableMixin with a method drive and use it with the Car class.
+24. Composition: Implement a Battery class and include it as a composition in the ElectricCar class.
+25. Encapsulation: Demonstrate encapsulation by controlling access to a private attribute in the Car class.
+26. Aggregation: Create a Garage class that can contain multiple Car objects and calculate the total number of cars.
+27. Custom exceptions: Create a custom exception BatteryLowError and raise it in ElectricCar if battery_size is too low.
+28. Method resolution order (MRO): Experiment with MRO in a class hierarchy involving multiple inheritance.
+29. Copying objects: Use the copy module to demonstrate shallow and deep copying of a Car object.
+30. Singletons: Implement a singleton class DatabaseConnection.
+
+Pythonic Class Exercises
+==================================
+31. Slots: Add __slots__ to the Car class to optimize memory usage.
+32. Metaclasses: Write a custom metaclass that enforces all class names to start with an uppercase letter.
+33. Descriptor protocol: Implement a class NonNegative that acts as a descriptor to prevent negative values in another class.
+34. Decorators in classes: Use method decorators like @classmethod and @staticmethod in the Car class.
+35. Enum classes: Create an enumeration CarType with values like SEDAN, SUV, and TRUCK.
+36. Class as callable: Implement the __call__ method in a class to make it callable.
+37. Chaining decorators: Combine multiple decorators in a class method.
+38. Dynamic attributes: Add attributes to a class instance dynamically and then access them.
+39. Mutable vs Immutable objects: Create a mutable class Engine and an immutable class Wheel, and explain the difference.
+40. Type hinting: Use Python type hinting in the methods of the Car class for better readability.
+
+Projects and Challenges
+=================================
+41. CRUD operations: Create a class ContactBook that allows adding, reading, updating, and deleting contacts.
+42. Observer pattern: Implement the observer pattern using classes to simulate a notification system.
+43. Factory pattern: Create a factory method in a class to instantiate different types of Car objects.
+44. Decorator pattern: Implement the decorator pattern to add features like GPS and Sunroof to a Car class.
+45. Command pattern: Write a class RemoteControl that can execute and undo commands like StartEngine and StopEngine on a Car.
+46. Iterator pattern: Implement an iterator class for a custom collection of Car objects.
+47. State pattern: Create a class TrafficLight that changes states between Red, Green, and Yellow.
+48. Prototype pattern: Implement the prototype design pattern to clone Car objects.
+49. Mediator pattern: Simulate a chat room where multiple User objects can send and receive messages through a ChatRoom class.
+50. Unit tests: Write unit tests for the methods in your Car class using Python's unittest framework.
